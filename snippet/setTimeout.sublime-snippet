@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:variable} = setTimeout( ${2:methodName}, 5000 );
+
+clearTimeout(${1:variable});
+]]></content>
+    <tabTrigger>sto</tabTrigger>
+</snippet>

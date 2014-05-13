@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/*
+*
+* ${1:title}
+*
+*/
+\$(function () {
+    ${1:someCode...}
+});
+]]></content>
+    <tabTrigger>dr</tabTrigger>
+</snippet>
