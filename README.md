@@ -1,7 +1,7 @@
 Sublime Ayarlarım
 ======
 
-```json
+```js
 {
     // Tema
     "theme": "predawn.sublime-theme",
