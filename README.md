@@ -1,32 +1,57 @@
-My Sublime Settings
+Sublime Ayarlarım
 ======
 
 ```json
 {
-    "bold_folder_labels": true,
-    "color_scheme": "Packages/User/predawn (SL).tmTheme",
-    "default_line_ending": "unix",
-    "ensure_newline_at_eof_on_save": true,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "ignored_packages": [
-        "SideBarEnhancements",
-        "Stylus",
-        "Vintage"
-    ],
-    "preview_on_click": false,
-    "save_on_focus_lost": true,
-    "scroll_past_end": true,
-    "scroll_speed": 5.0,
-    "sidebar_default": true,
-    "tabs_small": true,
+    // Tema
     "theme": "predawn.sublime-theme",
+
+    // Tema - Syntax
+    "color_scheme": "Packages/User/predawn (SL).tmTheme",
+
+    // Tema - Varsayilan Sidebar
+    "sidebar_default": true,
+
+    // Tema - Kucuk Tabler
+    "tabs_small": true,
+
+    // Line Endingi default olarak unix yapar.
+    "default_line_ending": "unix",
+
+    // Degisiklik kaydedildiginde sayfanin en altina (yoksa eger) otomatik olarak bos satir ekler.
+    "ensure_newline_at_eof_on_save": true,
+
+    // Sayfadan odaginizi kaybettiginiz anda sayfa kaydedilir.
+    "save_on_focus_lost": true,
+
+    // Tableri otomatik olarak bosluk yapar.
     "translate_tabs_to_spaces": true,
-    "word_wrap": true
+
+    // Sidebardan dosyaya tiklayinca otomatik olarak onizleme yapmasini iptal eder.
+    "preview_on_click": false,
+
+    // Yatay scroll cikmasini engeller.
+    "word_wrap": true,
+
+    // Scroll hizini arttirir.
+    "scroll_speed": 5.0,
+
+    // Sayfanın en altini kolay okuyabilmek icin fazladan bos alan birakir.
+    "scroll_past_end": true,
+
+    // Klasor isimlerinin kalin olmasini saglar.
+    "bold_folder_labels": true,
+
+    // Imlecin bulundugu satiri highlight eder.
+    "highlight_line": true,
+
+    // Icerigi degistirilmis tableri highlight eder.
+    "highlight_modified_tabs": true
 }
+
 ```
 
-My Sublime Packets
+Sublime Paketlerim
 ======
 
 - Git
@@ -43,13 +68,13 @@ My Sublime Packets
 - Stylus
 - Live Reload
 
-##### Snippets
+##### Snippet'lar
 
 - Emmet
 - AngularJS Snippets
 - Nodejs
 - jQuery
 
-##### Theme
+##### Tema
 
 - Predawn
