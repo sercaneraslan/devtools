@@ -1,13 +1,13 @@
-Alias'lar
+Alias'larım
 ========
 
-### OPEN
+".bash_profile" dosyası açılır.
 
 ```
 vim ~/.bash_profile
 ```
 
-### ADD
+Aşağıdaki eklemeler yapılır.
 
 ```
 alias a='git add .'
@@ -39,7 +39,7 @@ alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 ```
 
-### RUN
+Son olarak ".bash_profile" dosyası çalıştırılır.
 
 ```
 . ~/.bash_profile
