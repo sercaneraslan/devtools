@@ -1,15 +1,25 @@
-Alias'larım
+Bash it Kurulumu
 ========
 
-".bash_profile" dosyası açılır.
+1- Repoyu klonlayınız: `clone https://github.com/revans/bash-it.git ~/.bash_it`
+2- `~/.bash_it/install.sh` komutunu çalıştırınız (~/.bash_profile dosyanız otomatik olarak yedeklenecek).
+3- Sorulara cevap veriniz.
+4- iTerm'i kapatıp açınız.
+
+Bash it Genel Ayarlar
+========
+
+`.bash_profile` dosyası açılır.
 
 ```
 vim ~/.bash_profile
 ```
 
-Aşağıdaki eklemeler yapılır.
+Alias'lar için dosyanın sonuna aşağıdaki eklemeler yapılır.
 
 ```
+# Alias
+
 alias a='git add .'
 alias b='git branch'
 alias bb='git checkout -'
@@ -39,7 +49,13 @@ alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 ```
 
-Son olarak ".bash_profile" dosyası çalıştırılır.
+Tema değiştirmek için export `BASH_IT_THEME='bobby'` yazan satır bulunur, istenilen tema seçilir. (Temalar için: [temalar](https://github.com/revans/bash-it/wiki/Themes) )
+
+```
+BASH_IT_THEME='minimal'
+```
+
+Son olarak `.bash_profile` dosyası çalıştırılır.
 
 ```
 . ~/.bash_profile
