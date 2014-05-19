@@ -9,13 +9,13 @@ Bash it Kurulumu
 Bash it Genel Ayarlar
 ========
 
-1. `.bash_profile` dosyası açılır.
+* `.bash_profile` dosyası açılır.
 
 ```
 vim ~/.bash_profile
 ```
 
-2. Alias'lar için dosyanın sonuna aşağıdaki eklemeler yapılır.
+* Alias'lar için dosyanın sonuna aşağıdaki eklemeler yapılır.
 
 ```
 # Alias
@@ -49,16 +49,16 @@ alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 ```
 
-3. Tema değiştirmek için export `BASH_IT_THEME='bobby'` yazan satır bulunur, istenilen tema seçilir. (Temalar için: [temalar](https://github.com/revans/bash-it/wiki/Themes) )
+* Tema değiştirmek için export `BASH_IT_THEME='bobby'` yazan satır bulunur, istenilen tema seçilir. (Temalar için: [temalar](https://github.com/revans/bash-it/wiki/Themes) )
 
 ```
 BASH_IT_THEME='minimal'
 ```
 
-4. `.bash_profile` dosyası çalıştırılır.
+* `.bash_profile` dosyası çalıştırılır.
 
 ```
 . ~/.bash_profile
 ```
 
-5. Son olarak iTerm kapatılıp yeniden açılır.
+* Son olarak iTerm kapatılıp yeniden açılır.
