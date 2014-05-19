@@ -1,4 +1,0 @@
-Alias
-======
-
-Burada ayarlar vs.
