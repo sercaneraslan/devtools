@@ -1,3 +1,8 @@
+Sublime Dokümanı
+======
+
+Sublime Text ile ilgili dokumanı incelemek için [tıklayınız.](http://labs.sahibinden.com/yazi/sublime-texti-etkin-kullanmak/)
+
 Sublime Ayarlarım
 ======
 
