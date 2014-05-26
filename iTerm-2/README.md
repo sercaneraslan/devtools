@@ -43,10 +43,22 @@ alias rst='git reset --hard'
 alias s='git status'
 
 alias gr='grunt'
-alias grw='grunt watch'
 
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+alias bp='~/.bash_profile'
+alias bpr='. ~/.bash_profile'
+```
+
+* Fonksiyonlar için aşağıdaki eklemeler yapılır.
+
+```
+# Functions
+
+function gi() {
+    npm install --save-dev "$0"
+}
 ```
 
 * Tema değiştirmek için export `BASH_IT_THEME='bobby'` yazan satır bulunur, istenilen tema seçilir. (Temalar için: [temalar](https://github.com/revans/bash-it/wiki/Themes) )
