@@ -47,7 +47,7 @@ alias gr='grunt'
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
-alias bp='~/.bash_profile'
+alias bp='vim ~/.bash_profile'
 alias bpr='. ~/.bash_profile'
 ```
 
