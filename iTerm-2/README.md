@@ -57,7 +57,7 @@ alias bpr='. ~/.bash_profile'
 # Functions
 
 function gi {
-    npm install --save-dev "$0"
+    npm install --save-dev "$1"
 }
 ```
 
