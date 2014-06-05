@@ -43,6 +43,9 @@ alias rst='git reset --hard'
 alias s='git status'
 
 alias gr='grunt'
+alias gbi='grunt bower:install'
+
+alias ni='npm install'
 
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
