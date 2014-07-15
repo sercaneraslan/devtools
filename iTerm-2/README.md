@@ -41,6 +41,8 @@ alias p='git pull'
 alias pp='git push'
 alias rst='git reset --hard'
 alias s='git status'
+alias st='git stash'
+alias sp='git stash pop'
 
 alias gr='grunt'
 alias gbi='grunt bower:install'
