@@ -41,11 +41,15 @@ alias p='git pull'
 alias pp='git push'
 alias rst='git reset --hard'
 alias s='git status'
+alias sl='git shortlog -s'
+alias sln='git shortlog -s -n'
 alias st='git stash'
 alias sp='git stash pop'
 
 alias gr='grunt'
+alias grl='grunt live'
 alias gbi='grunt bower:install'
+alias ggp='grunt github-pages'
 
 alias ni='npm install'
 
@@ -54,6 +58,8 @@ alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
 alias bp='vim ~/.bash_profile'
 alias bpr='. ~/.bash_profile'
+
+alias de='cd ~/Desktop/'
 ```
 
 * Fonksiyonlar için aşağıdaki eklemeler yapılır.
