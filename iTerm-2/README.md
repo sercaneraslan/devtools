@@ -56,6 +56,8 @@ alias ni='npm install'
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
+alias yv='sudo chown -R sercaneraslan:wheel'
+
 alias bp='vim ~/.bash_profile'
 alias bpr='. ~/.bash_profile'
 
