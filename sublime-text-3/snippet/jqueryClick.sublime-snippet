@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$('${1:element}').click(function(${2:arguments}) {
-    ${3:someCode...}
-});
-]]></content>
-    <tabTrigger>click</tabTrigger>
-</snippet>
