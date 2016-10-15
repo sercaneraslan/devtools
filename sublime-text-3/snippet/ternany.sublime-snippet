@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:condition} ? ${2:isTrue} : ${3:isFalse};
-]]></content>
-    <tabTrigger>ter</tabTrigger>
-</snippet>
