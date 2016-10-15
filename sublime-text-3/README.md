@@ -59,19 +59,8 @@ Sublime Ayarları
 Sublime Paketleri
 ======
 
-- Git
 - Git Gutter
-- BracketHighlighter
-- SublimeLinter
-- AutoFileName
-- Inc-Dec-Value
-- Pretty JSON
-- Alignment
-- Can I Use
-- Sidebar Enhancements
-- YUI Compressor
 - Stylus
-- Live Reload
 
 ##### Tema
 
