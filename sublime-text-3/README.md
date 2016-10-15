@@ -3,7 +3,7 @@ Sublime Dokümanı
 
 Sublime Text ile ilgili dokümanı incelemek için [tıklayınız.](http://labs.sahibinden.com/yazi/sublime-texti-etkin-kullanmak/)
 
-Sublime Ayarlarım
+Sublime Ayarları
 ======
 
 ```js
@@ -56,7 +56,7 @@ Sublime Ayarlarım
 
 ```
 
-Sublime Paketlerim
+Sublime Paketleri
 ======
 
 - Git
@@ -72,13 +72,6 @@ Sublime Paketlerim
 - YUI Compressor
 - Stylus
 - Live Reload
-
-##### Snippet'lar
-
-- Emmet
-- AngularJS Snippets
-- Nodejs
-- jQuery
 
 ##### Tema
 
