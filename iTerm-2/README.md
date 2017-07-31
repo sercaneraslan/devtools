@@ -19,8 +19,6 @@ vim ~/.bash_profile
 
 ```
 # Alias
-
-alias a='git add .'
 alias b='git branch'
 alias bb='git checkout -'
 alias c='git checkout'
@@ -30,6 +28,7 @@ alias d='git diff master -w --color'
 alias dd='git diff'
 alias df='git diff master -- '*.js' '*.css' '*.html''
 alias ff='git ls-files |grep '
+alias ga='git add .'
 alias g='git grep'
 alias l='git log -p'
 alias m='git checkout master'
