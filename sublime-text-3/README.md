@@ -16,6 +16,9 @@ Sublime Ayarları
     // Font
     "font_size": 12,
 
+    // Gutter Margin
+    "margin": 0,
+
     // Line Endingi default olarak unix yapar.
     "default_line_ending": "unix",
 
