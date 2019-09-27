@@ -43,11 +43,11 @@ Sublime Ayarları
     // Kayıt ederken sayfanin en altina bos satir ekler.
     "ensure_newline_at_eof_on_save": true,
 
-    // Sayfadan odaginizi kaybettiginiz anda sayfa kaydedilir.
-    "save_on_focus_lost": true,
+    // Sayfanin en altini kolay okuyabilmek icin fazladan bos alan birakir.
+    "scroll_past_end": true,
 
-    // Sayfanın en altini kolay okuyabilmek icin fazladan bos alan birakir.
-    "scroll_past_end": true
+    // Retinali Macler icin antialias ekler.
+    "font_options": [ "gray_antialias" ]
 }
 
 ```
