@@ -1,7 +1,7 @@
 Sublime Dokümanı
 ======
 
-Sublime Text ile ilgili dokümanı incelemek için [tıklayınız.](http://labs.sahibinden.com/yazi/sublime-texti-etkin-kullanmak/)
+Sublime Text ile ilgili dokümanı incelemek için [tıklayınız.](http://blog.sercaneraslan.com/sublime-texti-etkin-kullanma)
 
 Sublime Ayarları
 ======
