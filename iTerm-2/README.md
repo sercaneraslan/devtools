@@ -1,10 +1,11 @@
 Bash it Kurulumu
 ========
 
-1. Repoyu klonlayınız: `git clone https://github.com/revans/bash-it.git ~/.bash_it`
-2. `~/.bash_it/install.sh` komutunu çalıştırınız (`~/.bash_profile` dosyanız otomatik olarak yedeklenecek).
-3. Sorulara cevap veriniz.
-4. iTerm'i kapatıp açınız.
+1. Kurulu değilse Xcode'u kurun.
+2. Repoyu klonlayınız: `git clone https://github.com/revans/bash-it.git ~/.bash_it`
+3. `~/.bash_it/install.sh` komutunu çalıştırınız (`~/.bash_profile` dosyanız otomatik olarak yedeklenecek).
+4. Sorulara cevap veriniz.
+5. iTerm'i kapatıp açınız.
 
 Bash it Genel Ayarlar
 ========
