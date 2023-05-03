@@ -46,12 +46,12 @@ alias sln='git shortlog -s -n'
 alias st='git stash'
 alias sp='git stash pop'
 
-alias gr='grunt'
-alias grl='grunt live'
-alias gbi='grunt bower:install'
-alias ggp='grunt github-pages'
-
 alias ni='npm install'
+alias ns='npm run start'
+alias nb='npm run build'
+alias yi='yarn install'
+alias ys='yarn start'
+alias yb='yarn build'
 
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
