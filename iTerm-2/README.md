@@ -1,22 +1,8 @@
-Bash it Kurulumu
-========
+## Terminal
+I prefer [iTerm2](https://iterm2.com) as a terminal and [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) as a shell.
 
-1. Kurulu değilse Xcode'u kurun.
-2. Zsh'ı yükleyin. `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-3. `~/.bash_it/install.sh` komutunu çalıştırın.
-4. Sorulara cevap verin.
-5. iTerm'i kapatıp açın.
-
-Bash it Genel Ayarlar
-========
-
-* `.bash_profile` dosyası açılır.
-
-```
-vim ~/.bash_profile
-```
-
-* Alias'lar için dosyanın sonuna aşağıdaki eklemeler yapılır.
+## Aliases
+You can find my aliases below, which I use often.
 
 ```
 # Alias
@@ -27,7 +13,6 @@ alias ci='git commit -am'
 alias cx='clear'
 alias d='git diff master -w --color'
 alias dd='git diff'
-alias df='git diff master -- '*.js' '*.css' '*.html''
 alias ff='git ls-files |grep '
 alias ga='git add .'
 alias g='git grep'
@@ -35,7 +20,6 @@ alias l='git log -p'
 alias m='git checkout master'
 alias mm='git merge master'
 alias mb='git merge'
-alias mmd='git branch --merged master | grep -v 'master$' | xargs git branch -d'
 alias n='git diff master --name-only'
 alias p='git pull'
 alias pp='git push'
@@ -56,34 +40,32 @@ alias yb='yarn build'
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
-alias yv='sudo chown -R sercaneraslan:wheel'
-
 alias bp='vim ~/.bash_profile'
 alias bpr='. ~/.bash_profile'
+
+alias yv='sudo chown -R sercaneraslan:wheel'
 
 alias de='cd ~/Desktop/'
 ```
 
-* Fonksiyonlar için aşağıdaki eklemeler yapılır.
+#### How do I add these aliases?
 
-```
-# Functions
+* Open .bash_profile: `vim ~/.bash_profile`
+* Add all of them to the end of the file.
+* Save .bash_profile.
+* Execute .bash_profile: `. ~/.bash_profile`
+* Close your terminal and open it again.
 
-function gi {
-    npm install --save-dev "$1"
-}
-```
+If it doesn't work, open the .zshrc file via this command `vim ~/.zshrc` and add `source ~/.bash_profile` line to the end of the file. After that, close your terminal and open it again.
 
-* Tema değiştirmek için export `BASH_IT_THEME='bobby'` yazan satır bulunur, istenilen tema seçilir. (Temalar için: [temalar](https://github.com/revans/bash-it/wiki/Themes) )
+## Themes
 
-```
-BASH_IT_THEME='minimal'
-```
+I prefer `minimal` theme. (You can select your [theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes))
 
-* `.bash_profile` dosyası çalıştırılır.
+#### How do I change my theme?
 
-```
-. ~/.bash_profile
-```
-
-* Son olarak iTerm kapatılıp yeniden açılır.
+* Open .bash_profile: `vim ~/.bash_profile`
+* Find the `BASH_IT_THEME='bobby'` line and change it.
+* Save .bash_profile.
+* Execute .bash_profile: `. ~/.bash_profile`
+* Close your terminal and open it again.
