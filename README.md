@@ -4,11 +4,21 @@
 I prefer <a href="https://iterm2.com">iTerm2</a> as a terminal and <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH">Oh My ZSH</a> as a shell.
 </p>
 
-### Aliases
+## 🎨 Themes
+
+I prefer `minimal` theme.
+
+How do I change my theme?
+
+* Open the .bash_profile file: `vim ~/.bash_profile`
+* Find the `BASH_IT_THEME='bobby'` line, change it and save it.
+* Execute the .bash_profile file: `. ~/.bash_profile`
+* Close your terminal and open it again.
+
+## 🫶 Aliases
 You can find my aliases below, which I use often.
 
 ```
-# Alias
 alias b='git branch'
 alias bb='git checkout -'
 alias c='git checkout'
@@ -51,29 +61,20 @@ alias yv='sudo chown -R sercaneraslan:wheel'
 alias de='cd ~/Desktop/'
 ```
 
-#### How do I add these aliases?
+How do I add these aliases?
 
-* Open .bash_profile: `vim ~/.bash_profile`
-* Add all of them to the end of the file.
-* Save .bash_profile.
-* Execute .bash_profile: `. ~/.bash_profile`
+* Open the .bash_profile file. `vim ~/.bash_profile`
+* Add all of them to the end of the file and save it.
+* Execute the .bash_profile file. `. ~/.bash_profile`
 * Close your terminal and open it again.
 
-If it doesn't work, open the .zshrc file via this command `vim ~/.zshrc` and add `source ~/.bash_profile` line to the end of the file. After that, close your terminal and open it again.
-
-### Themes
-
-I prefer `minimal` theme. (You can select your [theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes))
-
-#### How do I change my theme?
-
-* Open .bash_profile: `vim ~/.bash_profile`
-* Find the `BASH_IT_THEME='bobby'` line and change it.
-* Save .bash_profile.
-* Execute .bash_profile: `. ~/.bash_profile`
+If it doesn't work; 
+* Open the .zshrc file. `vim ~/.zshrc`
+* Add `source ~/.bash_profile` line to the end of the file.
 * Close your terminal and open it again.
 
-<h1 align="center">📃 Text Editor</h1>
+
+<h1 align="center">🕹️ Text Editor</h1>
 
 <p align="center">
 I prefer <a href="https://www.sublimetext.com/">Sublime Text</a> as a text editor.
@@ -83,7 +84,7 @@ I prefer <a href="https://www.sublimetext.com/">Sublime Text</a> as a text edito
 PS I wrote a detailed Turkish blog post about <a href="http://blog.sercaneraslan.com/sublime-texti-etkin-kullanma">Efficient usage of Sublime Text</a> many years ago. If you are interested, you can read it.
 </p>
 
-### Settings
+## ⚙️ Settings
 
 ```js
 {
@@ -108,12 +109,12 @@ PS I wrote a detailed Turkish blog post about <a href="http://blog.sercaneraslan
 
 ```
 
-### Themes
+## 🎨 Themes
 
 - [Theme - Dark Material](https://packagecontrol.io/packages/Theme%20-%20Dark%20Material)
 - [Predawn](https://packagecontrol.io/packages/Predawn)
 
-### Packages
+## 📦 Packages
 
 - [Git](https://packagecontrol.io/packages/Git)
 - [Git Gutter](https://packagecontrol.io/packages/GitGutter)
@@ -123,14 +124,14 @@ PS I wrote a detailed Turkish blog post about <a href="http://blog.sercaneraslan
 - [Pretty JSON](https://packagecontrol.io/packages/Pretty%20JSON)
 - [Live Reload](https://packagecontrol.io/packages/LiveReload)
 
-### How do I install Themes and Packages?
+How do I install Themes and Packages?
 
 - Install [Package Control](https://packagecontrol.io/installation).
 - Press `Cmd + Shift + P` combination.
 - Type `Package Control: Install Package` and press `enter`.
 - Write your theme or package name and press `enter`.
 
-## Snippets
+## 💫 Snippets
 
 - Open `Tools > Developer > New Snippet`.
 - Replace with the following code and save as `cl.sublime-snippet`.
