@@ -1,9 +1,3 @@
-<h1 align="center">⚙️ devtools</h1>
-
-<p align="center">
-My development tools preferences and settings are in this file, such as the <a href="https://github.com/sercaneraslan/devtools/edit/master/README.md#-terminal">terminal</a> or <a href="https://github.com/sercaneraslan/devtools/edit/master/README.md#-terminal">text editor</a>.
-</p>
-
 <h1 align="center">💻 Terminal</h1>
 
 <p align="center">
