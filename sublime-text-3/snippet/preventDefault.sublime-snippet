@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-e.preventDefault();
-]]></content>
-    <tabTrigger>pd</tabTrigger>
-</snippet>

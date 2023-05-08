@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-for(${1:variable}; ${1:variable} < ${2:length}; ${1:variable}++) {
-    ${3:someCode...}
-}
-]]></content>
-    <tabTrigger>for</tabTrigger>
-</snippet>

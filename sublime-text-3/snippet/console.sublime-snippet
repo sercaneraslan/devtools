@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-console.log(${1:params});
-]]></content>
-    <tabTrigger>cl</tabTrigger>
-</snippet>
