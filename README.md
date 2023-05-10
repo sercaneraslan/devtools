@@ -6,13 +6,13 @@ I prefer <a href="https://iterm2.com">iTerm2</a> as a terminal and <a href="http
 
 ## 🎨 Themes
 
-I prefer `minimal` theme.
+I prefer `robbyrussell` theme which is default.
 
 How do I change my theme?
 
-* Open the .bash_profile file: `vim ~/.bash_profile`
-* Find the `BASH_IT_THEME='bobby'` line, change it and save it.
-* Execute the .bash_profile file: `. ~/.bash_profile`
+* Open the .zshrc file: `vim ~/.zshrc`
+* Find the `ZSH_THEME="robbyrussell"` line, change it and save it.
+* Execute the .zshrc file. `. ~/.zshrc`.
 * Close your terminal and open it again.
 
 ## 🫶 Aliases
@@ -63,16 +63,9 @@ alias de='cd ~/Desktop/'
 
 How do I add these aliases?
 
-* Open the .bash_profile file. `vim ~/.bash_profile`
-* Add all of them to the end of the file and save it.
-* Execute the .bash_profile file. `. ~/.bash_profile`
-* Close your terminal and open it again.
-
-If it doesn't work; 
 * Open the .zshrc file. `vim ~/.zshrc`
-* Add `source ~/.bash_profile` line to the end of the file.
-* Close your terminal and open it again.
-
+* Add all of them to the end of the file and save it.
+* Execute the .zshrc file. `. ~/.zshrc`.
 
 <h1 align="center">🕹️ Text Editor</h1>
 
