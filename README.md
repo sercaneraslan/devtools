@@ -12,8 +12,8 @@ How do I change my theme?
 
 * Open the .zshrc file: `vim ~/.zshrc`
 * Find the `ZSH_THEME="robbyrussell"` line, change it and save it.
-* Execute the .zshrc file. `. ~/.zshrc`.
-* Close your terminal and open it again.
+* Execute the .zshrc file: `. ~/.zshrc`
+* Close your terminal and open it again if it necessary.
 
 ## 🫶 Aliases
 You can find my aliases below, which I use often.
@@ -63,9 +63,9 @@ alias de='cd ~/Desktop/'
 
 How do I add these aliases?
 
-* Open the .zshrc file. `vim ~/.zshrc`
+* Open the .zshrc file: `vim ~/.zshrc`
 * Add all of them to the end of the file and save it.
-* Execute the .zshrc file. `. ~/.zshrc`.
+* Execute the .zshrc file: `. ~/.zshrc`
 
 <h1 align="center">🕹️ Text Editor</h1>
 
