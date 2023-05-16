@@ -53,8 +53,8 @@ alias yb='yarn build'
 alias v='vim'
 alias ss="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
-alias bp='vim ~/.bash_profile'
-alias bpr='. ~/.bash_profile'
+alias bp='vim ~/.zshrc'
+alias bpr='. ~/.zshrc'
 
 alias yv='sudo chown -R sercaneraslan:wheel'
 
